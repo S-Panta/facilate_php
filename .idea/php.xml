@@ -14,15 +14,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
-      <path value="$PROJECT_DIR$/vendor/sabre/dav" />
-      <path value="$PROJECT_DIR$/vendor/sabre/uri" />
-      <path value="$PROJECT_DIR$/vendor/sabre/http" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/vendor/sabre/vobject" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/sabre/xml" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
-      <path value="$PROJECT_DIR$/vendor/sabre/event" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
       <path value="$PROJECT_DIR$/vendor/facile-it/php-openid-client" />
@@ -37,9 +31,20 @@
       <path value="$PROJECT_DIR$/vendor/web-token/jwt-key-mgmt" />
       <path value="$PROJECT_DIR$/vendor/web-token/jwt-signature" />
       <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/sabre/xml" />
+      <path value="$PROJECT_DIR$/vendor/sabre/event" />
+      <path value="$PROJECT_DIR$/vendor/sabre/dav" />
+      <path value="$PROJECT_DIR$/vendor/sabre/uri" />
+      <path value="$PROJECT_DIR$/vendor/sabre/http" />
+      <path value="$PROJECT_DIR$/vendor/sabre/vobject" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.0">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>
